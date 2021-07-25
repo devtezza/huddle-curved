@@ -1,18 +1,114 @@
 html, body {
-			  margin: 0;
-			  padding: 0;
-			  box-sizing: border-box;
-			  background: #ccc;
-			}
+	margin: 0;
+	padding: 0;
+	/*box-sizing: border-box;*/
+	background: #ccc;
+    max-width: 1440px;
+    min-width: 100px;
+}
 
+.cta {
+    text-align: center;
+    background: cadetblue;
+}
+
+
+/*------------------- HEADER -------------------*/
 header {
-	background: green;
+	background: yellowgreen;
 }
 
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+/*TOP BAR*/
+.top-bar > div:first-child {
+    background: palevioletred;
+}
+
+.top-bar > div:last-child {
+    background: darkorange;
+}
+
+/*HEADER MOCKUP*/
+.mockup {
+    background: royalblue;
+    text-align: center;
+}
+
+/*HEADER COUNTER*/
+.counter {
+    display: flex;
+    flex-wrap: wrap;     
+}
+
+.counter div {
+    min-width: 50%;
+}
+
+.counter > div:first-child {
+    background: limegreen;
+}
+.counter > div:last-child {
+    background: seagreen;
+}
+
+
+/*------------------- MAIN CONTENT -------------------*/
 main {
-	background: blue;
+	background: skyblue;
 }
 
+section:not(:last-child) {
+    background: darkorange;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section > div {
+    min-width: 50%;
+}
+
+section:nth-child(1), section:nth-child(3) {
+    background: #FFF;
+}
+
+section:not(:nth-child(2)) .text {
+    order: -1;
+}
+.text {
+    background: dimgrey;
+}
+
+.image {
+    background: lightgoldenrodyellow;
+}
+
+
+/*------------------- FOOTER -------------------*/
 footer {
 	background: red;
+    display: flex;
+    flex-wrap: wrap;
+}
+footer div {
+    min-width: 50%;
+}
+
+footer > div:first-child{
+    background: greenyellow;
+    order: 1;
+}
+
+/*BREAKING POINTS*/
+@media screen and (max-width: 375px) {
+    .counter, section:not(:last-child), footer {
+        display: block;
+    }
+    
 }
