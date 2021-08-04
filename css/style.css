@@ -17,7 +17,6 @@ VERIFY:
     font-size: calc( 10px + (24 - 10) * (100vw - 100px) / (800 - 100) ); }
 }
 
-
 html, body {
 	margin: 0 auto;
 	padding: 0;
@@ -34,14 +33,14 @@ h1, h2 {
     font-weight: bold;
 }
 
+
 a {
     text-decoration: none;
 }
 
 
-
 .cta { /*Call To Action*/
-    text-align: center;
+    text-align: center;    
 }
 
 
@@ -68,7 +67,7 @@ a {
     max-width: 25%;
 }
 
-.top-bar a img {    
+.top-bar img {    
     max-width: 100%;    
 }
 
@@ -105,10 +104,8 @@ a {
     font-size: 0.7em;
     display: block;
     margin: 1em auto;
-    padding: 0.8em 1.2em;
-    border: 0.15em solid;    
-    border-radius: 1.5em;
-       
+    padding: 0.8em 1.2em;    
+    border-radius: 1.5em;       
 }
 
 .cta a:hover {
@@ -247,16 +244,17 @@ a {
 
 /*4th Main Section - Call To Action Before Footer*/
 section.cta {
+    /*margin-top: 3em;
+    margin-bottom: 2em;*/
     margin: 3em 0;
 }
 
 
 
 /*------------------- FOOTER -------------------*/
-footer {
+footer {    
     color: #fff;
-    font-size: 0.4em;
-    margin-top: 4em;
+    font-size: 0.4em;    
 }
 
 footer h1 {
@@ -303,6 +301,8 @@ footer .text > img {
     margin: 5em 0;
 }
 
+
+/*Displays Newsletter after "About Huddle" Section (Desktop Version)*/
 .footer-bg > div:first-child{    
     -webkit-box-ordinal-group: 2;    
         -ms-flex-order: 1;    
@@ -451,11 +451,18 @@ footer .text > img {
         padding: 0;
     }
 
+    /*4th Main Section - Call To Action Before Footer*/
+    section.cta {
+        margin-top: 3em;
+        margin-bottom: 0;
+    }
+
 
     /*-----------------------------------Mobile Footer Styles*/
     footer {
         font-size: 0.8em;
     }
+
     footer h1 {
         margin-left: 0;
     }
