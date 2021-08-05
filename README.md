@@ -22,7 +22,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: (https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-flexbox-ALj6Ioz6Tp)
-- Live Site URL: (https://github.com/nandotezza/huddle-curved)
+- Live Site URL: (https://nandotezza.github.io/huddle-curved/)
 
 ### Built with
 
