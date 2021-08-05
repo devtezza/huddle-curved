@@ -1,8 +1,7 @@
 /*WARGNING
 VERIFY:
-- CSS CODE BEST PRACTICES
-- CSS NORMALIZE 
-- PREFIX ---> ---> (Ok)
+- CSS NORMALIZE ---> (Ok)
+- PREFIX ---> (Ok)
 - ACTIVE STATES (FRONTEND MENTOR DESIGN SCREENSHOT ---> (Ok)
 */
 
@@ -75,9 +74,8 @@ a {
 /*Top Bar Button*/
 .top-bar > div:last-child a {
     display: block;
-    max-width: 100%;
-    background: white;
-    color: hsl(322, 100%, 66%);    
+    max-width: 100%;    
+    color:  #ff52bf;    
     font-size: 0.7em;
     font-weight: 700;
     border: 0.15em solid;
@@ -86,7 +84,7 @@ a {
 }
 
 .top-bar > div:last-child a:hover {
-    color: hsl(321, 100%, 78%);
+    color: #ff8fd8;
 }
 
 /*HEADER CALL TO ACTION*/
@@ -97,8 +95,8 @@ a {
 }
 
 .cta a {
-    background: hsl(322, 100%, 66%);
-    color: white;
+    background: #ff52bf;
+    color: #fff;
     max-width: 30%; 
     text-align: center;
     font-size: 0.7em;
@@ -109,7 +107,7 @@ a {
 }
 
 .cta a:hover {
-    background: hsl(321, 100%, 78%);
+    background: #ff8fd8;
 }
 
 /*HEADER SCREEN MOCKUPS*/
@@ -154,7 +152,7 @@ a {
 .counter p {  /*Counter Text*/
     text-align: center;
     font-size: 0.7em;
-    color: grey;
+    color:  #808080;
     padding-top: 0;
     margin-top: 0;
 }
@@ -191,7 +189,7 @@ a {
 
 /*1st and 3rd Main Sections*/
 .text-image:first-of-type, .text-image:nth-of-type(3) {
-    background-color: hsl(207, 100%, 98%);
+    background-color: #f5faff;
 }
 
 
@@ -243,9 +241,7 @@ a {
 
 
 /*4th Main Section - Call To Action Before Footer*/
-section.cta {
-    /*margin-top: 3em;
-    margin-bottom: 2em;*/
+section.cta {   
     margin: 3em 0;
 }
 
@@ -320,7 +316,7 @@ footer .text > img {
 }
 
 .footer-bg {
-    background-color: hsl(192, 100%, 9%);
+    background-color: #00252e;
     min-height: 2em;
     margin-top: 0;
     
@@ -335,11 +331,11 @@ footer .text > img {
 
 .social a {
     margin-right: 0.5em;
-    color: white;
+    color: #fff;
 }
 
 .social a:hover {
-    color: deepskyblue;
+    color: #00bfff;
 }
 
 .news {
@@ -361,18 +357,18 @@ footer .text > img {
 }
 
 .email:focus {
-    border: 1px solid hsl(0, 100%, 63%);
+    border: 1px solid #ff4242;
 }
 
 .subscribe {    
     display: inline-block;
     color: #fff;
-    background-color: hsl(322, 100%, 66%);
+    background-color: #ff52bf;
     margin-left: 0.5em;
 }
 
 .subscribe:hover {
-    background-color: hsl(321, 100%, 78%);
+    background-color: #ff8fd8;
 }
 /*-----------------------------  BREAKING POINTS   ------------------------*/
 
