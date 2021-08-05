@@ -6,6 +6,7 @@ This is a solution to the [Huddle landing page with curved sections challenge on
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
+  - [Links](#links)
   - [Built with](#built-with)
 - [Author](#author)
 
@@ -17,6 +18,11 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
+
+### Links
+
+- Solution URL: (https://www.frontendmentor.io/solutions/responsive-landing-page-using-css-flexbox-ALj6Ioz6Tp)
+- Live Site URL: (https://github.com/nandotezza/huddle-curved)
 
 ### Built with
 
