@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8">
+
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+        <!--Set the links to open in a new tab-->
+        <base target="_blank">
 
         <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
 
@@ -23,10 +27,10 @@
         <header>
             <div class="top-bar"> <!--Top Bar-->
                 <div>                    
-                    <img src="images/logo.svg">                 
+                    <img src="images/logo.svg" alt="Huddle Logo">                 
                 </div>
                 <div>
-                    <a href="#">
+                    <a href="https://nandotezza.github.io/huddle-curved">
                         Try It Free
                     </a>
                 </div> 
@@ -36,17 +40,17 @@
                 <p>
                     Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
                 </p>
-                <a href="#">
+                <a href="https://nandotezza.github.io/huddle-curved">
                     Get Started For Free
                 </a>                
             </div> <!--End Call To Action-->
             <div class="mockup"> <!--Screen Mockups-->
-                <img src="images/screen-mockups.svg">
+                <img src="images/screen-mockups.svg" alt="Illustration: Screen Mockups">
             </div> <!--End Screen Mockups-->
             <div class="counter-wrapper"> <!--Counter Section-->          
                 <div class="counter"> <!--First Counter-->
                     <div>
-                       <img src="images/icon-communities.svg">      
+                       <img src="images/icon-communities.svg" alt="Icon: Communitites">      
                     </div>  
                     <div>                                       
                         <div>
@@ -60,7 +64,7 @@
 
                 <div class="counter"> <!--Second Counter-->
                     <div>
-                       <img src="images/icon-messages.svg">      
+                       <img src="images/icon-messages.svg" alt="Icon: Messages">      
                     </div>  
                     <div>                                       
                         <div>
@@ -82,10 +86,10 @@
             <!--The class text-image wraps every single Main Section content and sets a background color for the ones that have a background image-->
             <section class="text-image"> <!--First Main Section Content-->
                 <div class="image">
-                    <img src="images/illustration-grow-together.svg">
+                    <img src="images/illustration-grow-together.svg" alt="Illustration: Grow Together">
                 </div>
                 <div class="text">
-                    <h1>Grow Together</h1>
+                    <h2>Grow Together</h2>
                     <p>Generate meaningful discussion with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
                 </div>
             </section>
@@ -95,10 +99,10 @@
             
            <section class="text-image"> <!--Second Main Section Content-->             
                     <div class="image">
-                        <img src="images/illustration-flowing-conversation.svg">
+                        <img src="images/illustration-flowing-conversation.svg" alt="Illustration: Flowing Conversation">
                     </div>
                     <div class="text">
-                        <h1>Flowing Conversations</h1>
+                        <h2>Flowing Conversations</h2>
                         <p>You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
                     </div>               
             </section>
@@ -108,10 +112,10 @@
 
             <section class="text-image"> <!--Third Main Section Content-->
                 <div class="image">
-                    <img src="images/illustration-your-users.svg">
+                    <img src="images/illustration-your-users.svg" alt="Illustration: Your Users">
                 </div>
                 <div class="text">
-                    <h1>Your Users</h1>
+                    <h2>Your Users</h2>
                     <p>It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
                 </div>            
             </section>
@@ -120,8 +124,8 @@
             </div>
            
              <section class="cta"> <!--Fourth Main Section - Call To Action-->
-                <h1>Ready To Build Your Community?</h1>
-                <a href="#">
+                <h2>Ready To Build Your Community?</h2>
+                <a href="https://nandotezza.github.io/huddle-curved">
                     Get Started For Free
                 </a> 
             </section>
@@ -134,32 +138,35 @@
             </div>
             <div class="footer-bg"> <!--Footer Content Wrapper (sets the footer background color to merge with the top background)-->
                 <div>
-                    <h1>NEWSLETTER</h1>
+                    <h2>Newsletter</h2>
                     <p>To receive tips on how to grow your community, sign up to our weekly newsletter. We'll never send you spam or pass on your email address.</p>
                     
-                    <form class="news" action="#"> <!--Newsletter Form (class news)-->
-                            <input class="email" type="email" title="Check your email please">
-                            <a class="subscribe" href="#">
+                    <form class="news" action="https://www.google.com"> <!--Newsletter Form (class news)-->
+                            <input class="email" type="email">
+                            <button class="subscribe" type="submit">
                                 Subscribe
-                            </a>
-                            
+                            </button>                            
                     </form>                    
                 </div>
                 <div>
-                    <img src="images/logo.svg">
+                    <img src="images/logo.svg" alt="Huddle Logo">
                     <p>Huddle re-imagines the way we build communities. You have a voice, but so does your audience.</p>
-                    <div class="text">
-                        <img src="images/icon-phone.svg">
-                        Phone: +1-543-123-4567                       
+                    <div class="text">                        
+                        <a href="https://www.google.com/">
+                            <img src="images/icon-phone.svg" alt="Icon: phone">
+                            <span>Phone: +1-543-123-4567</span>
+                        </a>                    
                     </div>
                     <div class="text">
-                        <img src="images/icon-email.svg">
-                        example@huddle.com
+                        <a href="https://www.gmail.com/">
+                            <img src="images/icon-email.svg" alt="Icon: email">
+                            <span>example@huddle.com</span> 
+                        </a>
                     </div>
                     <div class="social"> <!--Social Icons Wrapper-->
-                       <a class="fa fa-facebook-square fa-2x" href="#"></a>
-                       <a class="fa fa-instagram fa-2x" href="#"></a>
-                       <a class="fa fa-twitter-square fa-2x" href="#"></a>
+                       <a class="fa fa-facebook-square fa-2x" href="https://www.facebook.com"></a>
+                       <a class="fa fa-instagram fa-2x" href="https://www.instagram.com"></a>
+                       <a class="fa fa-twitter-square fa-2x" href="https://twitter.com"></a>
                    </div>
                 </div>
             </div>    

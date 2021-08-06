@@ -50,7 +50,7 @@ a {
         -ms-flex-align: center;
             align-items: center;    
     margin-bottom: 2em;    
-    padding: 0.5em;
+    padding: 2.5em;
 }
 
 /*Top Bar Logo*/
@@ -219,7 +219,7 @@ a {
     font-size: 0.5em;    
 }
 
-.text h1 {
+.text h2 {
     font-size: 0.6em;    
 }
 
@@ -245,9 +245,14 @@ footer {
     font-size: 0.4em;    
 }
 
-footer h1 {
+footer h2 {
     font-size: 2em;    
-    margin-top: 0;   
+    margin-top: 0;
+    text-transform: uppercase;   
+}
+
+footer a {
+    color: #fff;
 }
 
 footer img:first-of-type { /*Footer Logo*/
@@ -266,7 +271,7 @@ footer .text {
     max-width: 80%;    
 }
 
-footer .text > img {   
+footer .text img {   
     margin-right: 0.5em;
     max-width: 5%;
 }
@@ -330,17 +335,23 @@ footer .text > img {
     color: #00bfff;
 }
 
+
+/*Newsletter Subscribe*/
 .news {
     margin-top: 3em;   
 }
 
-.email, .subscribe { 
+.email {
     -webkit-box-sizing: border-box; 
-            box-sizing: border-box;   
+            box-sizing: border-box; 
+}
+
+.email, .subscribe {      
     padding: 0.5em 1em;
     border: none;
     border-radius: 0.3em;
-    font-size: 1.0em;    
+    line-height: 1.5em;    
+    font-size: 1em; 
 }
 
 .email {
@@ -352,16 +363,18 @@ footer .text > img {
     border: 1px solid #ff4242;
 }
 
-.subscribe {    
-    display: inline-block;
+.subscribe {        
     color: #fff;
     background-color: #ff52bf;
     margin-left: 0.5em;
+    cursor: pointer;    
 }
 
 .subscribe:hover {
     background-color: #ff8fd8;
 }
+
+
 /*-----------------------------  BREAKING POINTS   ------------------------*/
 
 /*--------------------------------------------------First Breaking Point*/
@@ -370,7 +383,7 @@ footer .text > img {
         display: block;
     }
 
-    h1 {
+    h1, h2 {
         max-width: 12em;
         margin: auto;
     }
@@ -379,6 +392,11 @@ footer .text > img {
         max-width: 22em;
         margin: auto;
         padding-top: 1em;
+    }
+
+
+    .top-bar {
+        padding: 1.5em;
     }
 
     .cta a {
@@ -426,7 +444,7 @@ footer .text > img {
         padding: 2em 0;
     }
 
-    .text h1 {
+    .text h2 {
         font-size: 0.8em;
         margin: 0 auto;
         padding: 1em 0;
@@ -451,7 +469,7 @@ footer .text > img {
         font-size: 0.8em;
     }
 
-    footer h1 {
+    footer h2 {
         margin-left: 0;
     }
 
@@ -514,6 +532,10 @@ footer .text > img {
 
 /*--------------------------------------------------Second Breaking Point*/
 @media screen and (max-width: 240px) {
+    .top-bar {
+        padding: 0.8em;
+    }
+
     .top-bar > div:last-child {
         font-size: 0.6em;
     }
