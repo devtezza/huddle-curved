@@ -34,5 +34,5 @@ Users should be able to:
 
 ## Author
 - Author name - Fenando Tezza
-- Frontend Mentor - [@nandotezza](https://www.frontendmentor.io/profile/nandotezza)
+- Frontend Mentor - [@devtezza](https://www.frontendmentor.io/profile/devtezza)
 
