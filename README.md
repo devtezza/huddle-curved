@@ -33,6 +33,6 @@ Users should be able to:
 - Font Awesome
 
 ## Author
-- Author name - Fenando Tezza
+- Website - [Fernando Tezza](https://www.devtezza.com/)
 - Frontend Mentor - [@devtezza](https://www.frontendmentor.io/profile/devtezza)
 
